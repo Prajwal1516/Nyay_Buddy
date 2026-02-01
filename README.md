@@ -1,8 +1,8 @@
-# Nyay Buddy ⚖️
+# Nyay Buddy 
 
 **Nyay Buddy** is an intelligent Legal Named Entity Recognition (NER) and analysis tool designed to assist legal professionals, researchers, and common citizens in understanding complex legal documents. Leveraging a fine-tuned BERT model, it automatically extracts and highlights key legal entities and provides an AI-powered chat assistant to answer questions about the document.
 
-## 🚀 Features
+##  Features
 
 -   **High-Precision NER:** Automatically identifies and categorizes legal entities such as **Case Numbers, Court Names, Judges, Dates, Petitioners, Respondents, Statutes, and more** using a fine-tuned `Legal-BERT` model.
 -   **Smart Entity Highlighting:** Color-coded highlighting of extracted entities within the document text for quick scanning and review.
@@ -11,7 +11,7 @@
 -   **Multi-Format Support:** Seamlessly handles both **PDF** and **TXT** file uploads.
 -   **Robust Fallback:** Function in offline demo mode if the deep learning model or API is unavailable.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend & Interface
 -   **Framework:** Streamlit (Python)
@@ -25,14 +25,14 @@
 -   **LLM Integration:** Groq API (Llama 3)
 -   **Data Processing:** Pandas, NumPy, PyPDF
 
-## 📋 Prerequisites
+##  Prerequisites
 
 Before you begin, ensure you have the following installed:
 -   **Python** (v3.8 or higher)
 -   **pip** (Python Package Installer)
 -   **Git**
 
-## ⚙️ Installation
+##  Installation
 
 1.  **Clone the Repository**
     ```bash
@@ -66,7 +66,7 @@ Before you begin, ensure you have the following installed:
         GROQ_API_KEY = "your_groq_api_key_here"
         ```
 
-## 🏃‍♂️ Running the Application
+##  Running the Application
 
 To start the Nyay Buddy dashboard, run the Streamlit application from the root directory:
 
@@ -76,19 +76,19 @@ streamlit run app.py
 
 The application will launch in your default web browser at `http://localhost:8501`.
 
-## 📦 Model Information
+##  Model Information
 
 The project is designed to use a fine-tuned `legal-bert-ner` model.
 -   **Local Model:** If you have the fine-tuned model files, place them in a directory named `legal-bert-ner` in the project root.
 -   **Demo Mode:** If the local model is not found, the application uses a rule-based demonstration mode so you can still explore the UI and features.
 
-## 📖 Usage
+##  Usage
 
 1.  **Upload Document:**
     -   Click "Browse files" to upload a Legal Judgment or Case File (PDF or TXT).
     
 2.  **Analyze:**
-    -   Click the **"🔍 Analyze Text"** button.
+    -   Click the **" Analyze Text"** button.
     -   Wait for the BERT model to extract entities.
 
 3.  **Review Results:**
@@ -97,9 +97,9 @@ The project is designed to use a fine-tuned `legal-bert-ner` model.
     -   **Charts:** Analyze the frequency and confidence of different entity types.
 
 4.  **Ask the AI:**
-    -   Use the "🤖 Legal Assistant" chat at the bottom to ask questions like "Who is the petitioner?" or "Summarize the verdict".
+    -   Use the " Legal Assistant" chat at the bottom to ask questions like "Who is the petitioner?" or "Summarize the verdict".
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome to make justice more accessible!
 
