@@ -2,6 +2,16 @@
 
 **Nyay Buddy** is an intelligent Legal Named Entity Recognition (NER) and analysis tool designed to assist legal professionals, researchers, and common citizens in understanding complex legal documents. Leveraging a fine-tuned BERT model, it automatically extracts and highlights key legal entities and provides an AI-powered chat assistant to answer questions about the document.
 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![NER](https://img.shields.io/badge/NLP-Named%20Entity%20Recognition-FF6F00)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-FFD21E?logo=huggingface&logoColor=black)
+![NLP Models](https://img.shields.io/badge/NLP-Models-blueviolet)
+![Legal BERT](https://img.shields.io/badge/LegalBERT-Domain%20Model-6A1B9A)
+![Groq API](https://img.shields.io/badge/Groq-API-00A67E)
+![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)
+
 ##  Features
 
 -   **High-Precision NER:** Automatically identifies and categorizes legal entities such as **Case Numbers, Court Names, Judges, Dates, Petitioners, Respondents, Statutes, and more** using a fine-tuned `Legal-BERT` model.
